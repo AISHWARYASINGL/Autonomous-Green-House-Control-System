@@ -1,0 +1,37 @@
+# STM32CubeIDE project build folders
+/Debug/
+/Release/
+
+# STM32CubeIDE settings and metadata
+/.settings/
+/.cproject
+.project
+*.launch
+
+# IDE-related files
+*.log
+*.sublime-workspace
+*.sublime-project
+
+# Compiled object files and binaries
+*.o
+*.d
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+
+# Backup and temporary files
+*~
+*.swp
+*.bak
+
+# Windows / macOS specific
+Thumbs.db
+.DS_Store
+
+# Keil or other STM tool outputs (optional)
+/*.uvoptx
+/*.uvprojx
+/*.dep
