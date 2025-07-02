@@ -190,12 +190,12 @@ int main(void) {
             // Temperature-based fan control
             if (temp >= TEMP_THRESHOLD)
             {
-                lcd_string("Fan ON ");
+                lcd_string("Mild Hot");
                 motor_on();
             }
             else
             {
-                lcd_string("Fan OFF");
+                lcd_string("Normal");
                 motor_off();
             }
 
