@@ -1,6 +1,7 @@
 
 Module	Signal / Function	Port Pin	Physical Pin Number
-16x2 LCD (8-bit)	RS	PA0	14
+16x2 LCD (8-bit)	
+        RS	PA0	14
 	EN	PA1	15
 	D0	PC4	24
 	D1	PC5	25
@@ -12,7 +13,8 @@ Module	Signal / Function	Port Pin	Physical Pin Number
 	D7	PB15	36
 	RW	GND	—
 	LED	GND	—
-Keypad (4×4)	R1	PB3	55
+Keypad (4×4)	
+        R1	PB3	55
 	R2	PB4	56
 	R3	PB5	57
 	R4	PB6	58
@@ -20,16 +22,20 @@ Keypad (4×4)	R1	PB3	55
 	C2	PC0	8
 	C3	PC1	9
 	C4	PC2	10
-Relays (2)	Relay 1	PA2	16
+Relays (2)	
+        Relay 1	PA2	16
 	Relay 2	PA3	17
-Motor Driver (TB6612FNG)	AIN1	PA4	20
+Motor Driver (TB6612FNG)	
+        AIN1	PA4	20
 	AIN2	PA5	21
 	BIN1	PA6	22
 	BIN2	PA7	23
-	STBY	PA10	43
-DHT11 Sensor	DATA	PC3	11
-10-Segment LED Bar	LED1	PC6	37
-	LED2	PC7	38
+	STBY	 -	3.3V
+DHT11 Sensor	
+        DATA	PC3	11
+10-Segment LED Bar	
+        LED1	PA14	49
+	LED2	PB2	28
 	LED3	PC8	39
 	LED4	PC9	40
 	LED5	PC10	51
@@ -38,9 +44,13 @@ DHT11 Sensor	DATA	PC3	11
 	LED8	PA11	44
 	LED9	PA12	45
 	LED10	PA15	50
-LDR Sensor (Analog)	Analog OUT (ADC)	PA8	41
-Red LED	Output	PA9	42
-Green LED	Output	PA13	46
-TM1637 Display	CLK	PA14	49
-	DIO	PB2	28
+LDR Sensor (Analog)	
+       Analog OUT (ADC)	PA8	41
+Red LED	
+       Output	PA9	42
+Green LED	
+       Output	PA13	46
+TM1637 Display	
+        CLK	PC6	37
+	DIO	PC7	38
 
