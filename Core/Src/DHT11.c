@@ -17,7 +17,7 @@
 
 // Thresholds
 #define TEMP_THRESHOLD      25
-#define HUMIDITY_THRESHOLD  10
+#define HUMIDITY_THRESHOLD  60
 
 // Function prototypes
 void delay_us(uint32_t us);
