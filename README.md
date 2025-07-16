@@ -1,6 +1,6 @@
 
 
-### 🏡 Autonomous Greenhouse System 
+### 🏡 Autonomous Greenhouse Control System 
 
 #### 🌟 **Objective:**
 
